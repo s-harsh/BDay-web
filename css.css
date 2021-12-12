@@ -1,0 +1,136 @@
+body
+{
+    background-image: url('bg4.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: serif;
+}
+.Menu
+{
+    list-style-type: none;
+    color: white;
+    width: 200px;
+    background-color:white;
+    text-align: center;
+    border: 1px solid black;
+    overflow: hidden;
+    float: left;
+}
+.Menu li{
+    display: block;
+    padding: 8px;
+    border: 1px slid black;
+}
+li:hover
+{
+    background-color:lightblue;
+    text-align: center;
+    background-size: cover;
+}
+.title 
+{
+    color:whitesmoke;
+    float: center;
+    font-size:50px;
+    background-color:mediumblue;
+    border: 5px solid limegreen;
+    margin: 30px;
+}
+.front
+{
+    color: blueviolet;
+    width: 100%;
+    margin: 40px;
+    font-size: 40px;
+    text-align: center;
+}
+.wish
+{
+    color:lightblue;
+    font-size: 30px;
+    font-style: italic;
+    text-align: justify ;
+    border: 10px groove cornflowerblue;
+    border-radius: 18px;
+    margin: 10px;
+    padding: 10px;
+    background-image: url('bg1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.name
+{
+    text-align: center;
+    font-size: 40px;
+    font-style: oblique;
+    color: gold;
+}
+/*
+.img1
+{
+    align-self: auto;
+    width: 50%;
+    height: auto;
+    border: 20px royalblue;
+    padding-left: 70px;
+}*/
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 2px;
+    margin: 50px;
+    border:10px double blanchedalmond;
+
+    
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .column1 {
+    float: left;
+    width: 10%;
+    margin-right: 10px;;
+
+    
+  }
+  
+  .row1::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .row1,.column1:hover
+  {
+      color: chocolate;
+      border: #d2691e;
+      float:left;
+  }
+  .column2 {
+      color: white;
+    float: left;
+  width:40%;
+  padding: 2px;
+  margin: 10px;
+
+  
+}
+
+.row2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+video{
+  border: 2 px  black solid;
+  margin: 100px ;
+  padding: 150px;
+}
