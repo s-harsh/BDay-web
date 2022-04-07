@@ -1,2 +1,2 @@
 # BDay-web
-A beginner level developer's gift to his friend on her birthday
+A beginner level developer's gift to his friend on birthday
